@@ -1,12 +1,17 @@
 
 # realtor.ca scraper
-### What: scrape realtor.ca data using their api
+### What: 
+**scrape realtor.ca data using their api**
 
-### Why: I was not able to find a decent automated way of collecting realtor postings, so made this quick attempt. Successful at pulling a bunch of records daily since.
+### Why: 
+**I was not able to find a decent automated way of collecting realtor postings, so made this quick attempt. Successful at pulling a bunch of records daily since.**
 
-### How: example usage
+### How: 
+**example usage**
 
-'''python scrape.py --location=montreal'''
+'''
+python scrape.py --location=montreal
+'''
 
 this calls functions that will
 
@@ -16,7 +21,7 @@ this calls functions that will
 
 * store the retrieved records as a csv file in ./data
 
-NOTES:
+### NOTES:
 
 * since the api can't return more than 200 records at a time, the record fetch function recursively calls itself on two halves of the geogrphical rectangle it originally wanted to fetch, until each call returns less than 200 records
 
