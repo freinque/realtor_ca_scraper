@@ -9,9 +9,9 @@
 ### How: 
 **example usage**
 
-'''
+~~~~
 python scrape.py --location=montreal
-'''
+~~~~
 
 this calls functions that will
 
