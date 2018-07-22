@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 '''
 script  that retrieves arguments (e.g. location) api request parameters, gets dataframe and saves data
+
 '''
 import os.path
 import argparse
