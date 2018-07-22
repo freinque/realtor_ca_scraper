@@ -10,14 +10,14 @@
 **example usage**
 
 ~~~~
-python scrape.py --location=montreal
+python scripts/scrape.py --location=montreal
 ~~~~
 
-this calls functions that will
+this will
 
 * retrieve (all, by default) realtor listings from within rectangular geographic boundaries ('montreal' location defined in realtorscraper/etc/conf.py in terms of max/min latitude/longitude), 
 
-* minimally process records, 
+* minimally process listings, 
 
 * store the retrieved records as a csv file in ./data
 
