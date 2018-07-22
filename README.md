@@ -1,5 +1,6 @@
 
 # realtor.ca scraper
+
 ### What: 
 **scrape realtor.ca data using their api**
 
@@ -25,5 +26,5 @@ this will
 
 * since the api can't return more than 200 records at a time, the record fetch function recursively calls itself on two halves of the geogrphical rectangle it originally wanted to fetch, until each call returns less than 200 records
 
-!Therefore, this 'binary search' algo will fail if, roughly speaking, more than 200 units are for sale in a conf.EPSILON wide rectangle! This should not be an issue if the original rectangle provided has reasonable (say, on the scale of a city) height.
+!Therefore, this 'binary search' algo will fail if, roughly speaking, more than 200 units are for sale in a conf.EPSILON wide rectangle. This should not be an issue if the original rectangle provided has reasonable (say, on the scale of a city) height.!
 
